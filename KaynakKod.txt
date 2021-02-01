@@ -57,37 +57,37 @@ public class Arayuz extends JFrame {
 	DefaultTableModel modelim10 = new DefaultTableModel();
 	DefaultTableModel modelim11 = new DefaultTableModel();
 	
-	Object[] kolonlar1 = {"Firma ID","Hammadde","Miktar","Tarih","Raf Ömrü","Satış Fiyatı"};
+	Object[] kolonlar1 = {"Firma ID","Hammadde","Miktar","Tarih","Raf Ã–mrÃ¼","SatÃ½Ã¾ FiyatÃ½"};
 	Object[] satirlar1 = new Object[6];
 	
-	Object[] kolonlar2 = {"Firma ID","Firma Adı"};
+	Object[] kolonlar2 = {"Firma ID","Firma AdÃ½"};
 	Object[] satirlar2 = new Object[2];
 	
-	Object[] kolonlar3 = {"Firma ID","Ülke","Şehir Merkezi"};
+	Object[] kolonlar3 = {"Firma ID","Ãœlke","Ãehir Merkezi"};
 	Object[] satirlar3 = new Object[3];
 	
-	Object[] kolonlar4 = {"Kimyasal Ürün","Bileşen","Bileşen Sayısı"};
+	Object[] kolonlar4 = {"Kimyasal ÃœrÃ¼n","BileÃ¾en","BileÃ¾en SayÃ½sÃ½"};
 	Object[] satirlar4 = new Object[3];
 	
-	Object[] kolonlar5 = {"Firma Adı","Hammadde","Maliyet","Stok","Ürün"};
+	Object[] kolonlar5 = {"Firma AdÃ½","Hammadde","Maliyet","Stok","ÃœrÃ¼n"};
 	Object[] satirlar5 = new Object[5];
 	
-	Object[] kolonlar6 = {"Firma Adı","Şehir"};
+	Object[] kolonlar6 = {"Firma AdÃ½","Ãehir"};
 	Object[] satirlar6 = new Object[2];
 	
-	Object[] kolonlar7 = {"Ürün ID","Ürün Adı","Hammadde","Hammadde Miktarı"};
+	Object[] kolonlar7 = {"ÃœrÃ¼n ID","ÃœrÃ¼n AdÃ½","Hammadde","Hammadde MiktarÃ½"};
 	Object[] satirlar7 = new Object[4];
 	
-	Object[] kolonlar8 = {"Ürün ID","Üretim Tarihi","Raf Ömrü","İşçilik Maliyeti","Toplam Maliyet","Satış Fiyatı"};
+	Object[] kolonlar8 = {"ÃœrÃ¼n ID","Ãœretim Tarihi","Raf Ã–mrÃ¼","ÃÃ¾Ã§ilik Maliyeti","Toplam Maliyet","SatÃ½Ã¾ FiyatÃ½"};
 	Object[] satirlar8 = new Object[6];
 	
-	Object[] kolonlar9 = {"Müşteri ID","Adres","Ürün Bilgisi"};
+	Object[] kolonlar9 = {"MÃ¼Ã¾teri ID","Adres","ÃœrÃ¼n Bilgisi"};
 	Object[] satirlar9 = new Object[3];
 	
-	Object[] kolonlar10 = {"Müşteri ID","Müşteri Adı"};
+	Object[] kolonlar10 = {"MÃ¼Ã¾teri ID","MÃ¼Ã¾teri AdÃ½"};
 	Object[] satirlar10 = new Object[2];
 	
-	Object[] kolonlar11 = {"Şehir","Mesafe"};
+	Object[] kolonlar11 = {"Ãehir","Mesafe"};
 	Object[] satirlar11 = new Object[2];
 	
     ArrayList<Integer> list_urunID = new ArrayList<Integer>();
@@ -149,7 +149,7 @@ public class Arayuz extends JFrame {
        //tedarikci tablosu
        
         
-        JLabel lbl1 = new JLabel("Tedarikçi Tablosu  ");
+        JLabel lbl1 = new JLabel("TedarikÃ§i Tablosu  ");
         lbl1.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl1.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl1);
@@ -286,9 +286,9 @@ public class Arayuz extends JFrame {
         btnlistele3.setPreferredSize(new Dimension(75,30));
         panel_1.add(btnlistele3);
         
-        //kimyasal ürün tablosu
+        //kimyasal Ã¼rÃ¼n tablosu
  
-        JLabel lbl4 = new JLabel("Kimyasal Ürün Tablosu  ");
+        JLabel lbl4 = new JLabel("Kimyasal ÃœrÃ¼n Tablosu  ");
         lbl4.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl4.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl4);
@@ -334,7 +334,7 @@ public class Arayuz extends JFrame {
         
         //uretici tablosu
 
-        JLabel lbl5 = new JLabel("Üretici Tablosu  ");
+        JLabel lbl5 = new JLabel("Ãœretici Tablosu  ");
         lbl5.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl5.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl5);
@@ -381,7 +381,7 @@ public class Arayuz extends JFrame {
         
         //ureticiFirma tablosu
         
-        JLabel lbl6 = new JLabel("Üretici Firma Tablosu  ");
+        JLabel lbl6 = new JLabel("Ãœretici Firma Tablosu  ");
         lbl6.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl6.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl6);
@@ -426,7 +426,7 @@ public class Arayuz extends JFrame {
         
         //uretilenurun tablosu
         
-        JLabel lbl7 = new JLabel("Üretilen Ürün Tablosu  ");
+        JLabel lbl7 = new JLabel("Ãœretilen ÃœrÃ¼n Tablosu  ");
         lbl7.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl7.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl7);
@@ -472,7 +472,7 @@ public class Arayuz extends JFrame {
         
         //uretilenurunbilgi tablosu
 
-        JLabel lbl8 = new JLabel("Ü.Ürün Bilgisi Tablosu  ");
+        JLabel lbl8 = new JLabel("Ãœ.ÃœrÃ¼n Bilgisi Tablosu  ");
         lbl8.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl8.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl8);
@@ -502,7 +502,7 @@ public class Arayuz extends JFrame {
 						satirlar8[2] = myRs.getString("rafOmru");
 						satirlar8[3] = myRs.getString("iscilikMaliyeti");
 						satirlar8[4] = myRs.getString("toplamMaliyet");
-						satirlar8[5] = myRs.getString("satısFiyati");
+						satirlar8[5] = myRs.getString("satÃ½sFiyati");
 						modelim8.addRow(satirlar8);
 							
 					}
@@ -520,7 +520,7 @@ public class Arayuz extends JFrame {
 
         //musteri tablosu
 
-        JLabel lbl9 = new JLabel("Müşteri Tablosu  ");
+        JLabel lbl9 = new JLabel("MÃ¼Ã¾teri Tablosu  ");
         lbl9.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl9.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl9);
@@ -564,7 +564,7 @@ public class Arayuz extends JFrame {
         
         //musteribilgi tablosu
         
-        JLabel lbl10 = new JLabel("Müşteri Bilgi Tablosu  ");
+        JLabel lbl10 = new JLabel("MÃ¼Ã¾teri Bilgi Tablosu  ");
         lbl10.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl10.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl10);
@@ -608,7 +608,7 @@ public class Arayuz extends JFrame {
         
         //ulasim tablosu
         
-        JLabel lbl11 = new JLabel("Ulaşım Tablosu  ");
+        JLabel lbl11 = new JLabel("UlaÃ¾Ã½m Tablosu  ");
         lbl11.setFont(new Font("Tahoma", Font.BOLD, 15));
         lbl11.setPreferredSize(new Dimension(180,50));
         panel_1.add(lbl11);
@@ -652,11 +652,11 @@ public class Arayuz extends JFrame {
 	
         
         JPanel panel_2 = new JPanel();
-        panel.addTab("Tedarikçi-Üretici", panel_2);
+        panel.addTab("TedarikÃ§i-Ãœretici", panel_2);
         
-        //Tedarikçi ekleme
+        //TedarikÃ§i ekleme
          
-        JLabel lblTedarikciEkleme = new JLabel("Tedarikçi Ekleme İşlemi");
+        JLabel lblTedarikciEkleme = new JLabel("TedarikÃ§i Ekleme ÃÃ¾lemi");
         lblTedarikciEkleme.setForeground(Color.RED);
         lblTedarikciEkleme.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblTedarikciEkleme.setPreferredSize(new Dimension(900,50));
@@ -672,7 +672,7 @@ public class Arayuz extends JFrame {
         panel_2.add(txt_firmaID);
         txt_firmaID.setColumns(50);
         
-        JLabel lblfirmaAdi = new JLabel("Firma Adı  ");
+        JLabel lblfirmaAdi = new JLabel("Firma AdÃ½  ");
         lblfirmaAdi.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblfirmaAdi.setPreferredSize(new Dimension(300,50));
         panel_2.add(lblfirmaAdi);
@@ -682,7 +682,7 @@ public class Arayuz extends JFrame {
         panel_2.add(txt_firmaAdi);
         txt_firmaAdi.setColumns(50);
         
-        JLabel lblulke = new JLabel("Ülke  ");
+        JLabel lblulke = new JLabel("Ãœlke  ");
         lblulke.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblulke.setPreferredSize(new Dimension(300,50));
         panel_2.add(lblulke);
@@ -692,7 +692,7 @@ public class Arayuz extends JFrame {
         panel_2.add(txt_ulke);
         txt_ulke.setColumns(50);
         
-        JLabel lblsehirMerkezi = new JLabel("Şehir Merkezi  ");
+        JLabel lblsehirMerkezi = new JLabel("Ãehir Merkezi  ");
         lblsehirMerkezi.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblsehirMerkezi.setPreferredSize(new Dimension(300,50));
         panel_2.add(lblsehirMerkezi);
@@ -732,7 +732,7 @@ public class Arayuz extends JFrame {
         panel_2.add(txt_tarih);
         txt_tarih.setColumns(50);
         
-        JLabel lblrafOmru= new JLabel("Raf Ömrü  ");
+        JLabel lblrafOmru= new JLabel("Raf Ã–mrÃ¼  ");
         lblrafOmru.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblrafOmru.setPreferredSize(new Dimension(300,50));
         panel_2.add(lblrafOmru);
@@ -742,7 +742,7 @@ public class Arayuz extends JFrame {
         panel_2.add(txt_rafOmru);
         txt_rafOmru.setColumns(50);
         
-        JLabel lblsatisFiyati= new JLabel("Satış Fiyatı  ");
+        JLabel lblsatisFiyati= new JLabel("SatÃ½Ã¾ FiyatÃ½  ");
         lblsatisFiyati.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblsatisFiyati.setPreferredSize(new Dimension(300,50));
         panel_2.add(lblsatisFiyati);
@@ -784,18 +784,18 @@ public class Arayuz extends JFrame {
 		panel_2.add(btnKaydet1);
         
         JPanel panel_3 = new JPanel();
-        panel.addTab("Üretici-Müşteri",panel_3);
+        panel.addTab("Ãœretici-MÃ¼Ã¾teri",panel_3);
         
-        //Müşteri ekleme
+        //MÃ¼Ã¾teri ekleme
         
         
-        JLabel lblMusteriEkleme = new JLabel("Müşteri Ekleme İşlemi");
+        JLabel lblMusteriEkleme = new JLabel("MÃ¼Ã¾teri Ekleme ÃÃ¾lemi");
         lblMusteriEkleme.setForeground(Color.RED);
         lblMusteriEkleme.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblMusteriEkleme.setPreferredSize(new Dimension(900,50));
         panel_3.add(lblMusteriEkleme);
          
-        JLabel lblmusteriID = new JLabel("Müşteri ID  ");
+        JLabel lblmusteriID = new JLabel("MÃ¼Ã¾teri ID  ");
         lblmusteriID.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblmusteriID.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblmusteriID);
@@ -805,7 +805,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_musteriID);
         txt_musteriID.setColumns(50);
         
-        JLabel lblmusteriAdi = new JLabel("Müşteri Adı  ");
+        JLabel lblmusteriAdi = new JLabel("MÃ¼Ã¾teri AdÃ½  ");
         lblmusteriAdi.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblmusteriAdi.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblmusteriAdi);
@@ -825,7 +825,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_adres);
         txt_adres.setColumns(50);
 
-        JLabel lblurunBilgisi = new JLabel("Ürün Bilgisi  ");
+        JLabel lblurunBilgisi = new JLabel("ÃœrÃ¼n Bilgisi  ");
         lblurunBilgisi.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblurunBilgisi.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblurunBilgisi);
@@ -835,7 +835,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_urunBilgisi);
         txt_urunBilgisi.setColumns(50);
         
-        JLabel lblurunMiktar = new JLabel("Ürün Miktarı ");
+        JLabel lblurunMiktar = new JLabel("ÃœrÃ¼n MiktarÃ½ ");
         lblurunMiktar.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblurunMiktar.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblurunMiktar);
@@ -914,15 +914,15 @@ public class Arayuz extends JFrame {
 		btnKaydet2.setPreferredSize(new Dimension(200, 30));
 		panel_3.add(btnKaydet2);
 		
-		//kimyasal ürün ekleme işlemi
+		//kimyasal Ã¼rÃ¼n ekleme iÃ¾lemi
 		
-		JLabel lblKimyasalUrunEkleme= new JLabel("Kimyasal Ürün Ekleme İşlemi");
+		JLabel lblKimyasalUrunEkleme= new JLabel("Kimyasal ÃœrÃ¼n Ekleme ÃÃ¾lemi");
 		lblKimyasalUrunEkleme.setForeground(new Color(255, 0, 0));
 		lblKimyasalUrunEkleme.setFont(new Font("Tahoma", Font.BOLD, 15));
 		lblKimyasalUrunEkleme.setPreferredSize(new Dimension(900,50));
         panel_3.add(lblKimyasalUrunEkleme);
          
-        JLabel lblkimyasalUrunAdi = new JLabel("Kimyasal Ürün Adı ");
+        JLabel lblkimyasalUrunAdi = new JLabel("Kimyasal ÃœrÃ¼n AdÃ½ ");
         lblkimyasalUrunAdi.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblkimyasalUrunAdi.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblkimyasalUrunAdi);
@@ -932,7 +932,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_kimyasalUrunAdi);
         txt_kimyasalUrunAdi.setColumns(50);
         
-        JLabel lblbilesen1 = new JLabel("1.Bileşen ");
+        JLabel lblbilesen1 = new JLabel("1.BileÃ¾en ");
         lblbilesen1.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblbilesen1.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblbilesen1);
@@ -942,7 +942,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_bilesen1);
         txt_bilesen1.setColumns(50);
         
-        JLabel lblbilesenSayisi1 = new JLabel("1.Bileşen Sayısı ");
+        JLabel lblbilesenSayisi1 = new JLabel("1.BileÃ¾en SayÃ½sÃ½ ");
         lblbilesenSayisi1.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblbilesenSayisi1.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblbilesenSayisi1);
@@ -952,7 +952,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_bilesenSayisi1);
         txt_bilesenSayisi1.setColumns(50);
         
-        JLabel lblbilesen2 = new JLabel("2.Bileşen ");
+        JLabel lblbilesen2 = new JLabel("2.BileÃ¾en ");
         lblbilesen2.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblbilesen2.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblbilesen2);
@@ -962,7 +962,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_bilesen2);
         txt_bilesen2.setColumns(50);
         
-        JLabel lblbilesenSayisi2 = new JLabel("2.Bileşen Sayısı ");
+        JLabel lblbilesenSayisi2 = new JLabel("2.BileÃ¾en SayÃ½sÃ½ ");
         lblbilesenSayisi2.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblbilesenSayisi2.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblbilesenSayisi2);
@@ -972,7 +972,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_bilesenSayisi2);
         txt_bilesenSayisi2.setColumns(50);
         
-        JLabel lblbilesen3 = new JLabel("3.Bileşen ");
+        JLabel lblbilesen3 = new JLabel("3.BileÃ¾en ");
         lblbilesen3.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblbilesen3.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblbilesen3);
@@ -982,7 +982,7 @@ public class Arayuz extends JFrame {
         panel_3.add(txt_bilesen3);
         txt_bilesen3.setColumns(50);
         
-        JLabel lblbilesenSayisi3 = new JLabel("3.Bileşen Sayısı ");
+        JLabel lblbilesenSayisi3 = new JLabel("3.BileÃ¾en SayÃ½sÃ½ ");
         lblbilesenSayisi3.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblbilesenSayisi3.setPreferredSize(new Dimension(300,50));
         panel_3.add(lblbilesenSayisi3);
@@ -1064,9 +1064,9 @@ public class Arayuz extends JFrame {
 					}
 					else
 					{
-						System.out.println("Hata!! Bu ürün daha önce üretilmiş!");
+						System.out.println("Hata!! Bu Ã¼rÃ¼n daha Ã¶nce Ã¼retilmiÃ¾!");
 						
-						JLabel lbluyari1 = new JLabel("Hata!! Bu ürün daha önce üretilmiş! ");
+						JLabel lbluyari1 = new JLabel("Hata!! Bu Ã¼rÃ¼n daha Ã¶nce Ã¼retilmiÃ¾! ");
 						lbluyari1.setFont(new Font("Tahoma", Font.BOLD, 15));
 						lbluyari1.setPreferredSize(new Dimension(300,50));
 				        panel_3.add(lbluyari1);
@@ -1080,17 +1080,17 @@ public class Arayuz extends JFrame {
 		btnKaydet3.setPreferredSize(new Dimension(200, 30));
 		panel_3.add(btnKaydet3);
 		
-		//Üretici firmanın hammadde satın alması işlemi ve stok güncellenmesi
+		//Ãœretici firmanÃ½n hammadde satÃ½n almasÃ½ iÃ¾lemi ve stok gÃ¼ncellenmesi
 		
 		
 		
-		JLabel lblHammaddeSatinAlma= new JLabel("Üretim Gerçekleştirme İşlemi");
+		JLabel lblHammaddeSatinAlma= new JLabel("Ãœretim GerÃ§ekleÃ¾tirme ÃÃ¾lemi");
 		lblHammaddeSatinAlma.setForeground(new Color(255, 0, 0));
 		lblHammaddeSatinAlma.setFont(new Font("Tahoma", Font.BOLD, 15));
 		lblHammaddeSatinAlma.setPreferredSize(new Dimension(900,50));
         panel_2.add(lblHammaddeSatinAlma);
          
-        lblkimyasalUrun= new JLabel("Kimyasal Ürün Adi");
+        lblkimyasalUrun= new JLabel("Kimyasal ÃœrÃ¼n Adi");
         lblkimyasalUrun.setFont(new Font("Tahoma", Font.BOLD, 15));
         lblkimyasalUrun.setPreferredSize(new Dimension(300,50));
         panel_2.add(lblkimyasalUrun);
@@ -1110,15 +1110,15 @@ public class Arayuz extends JFrame {
         panel_2.add(txt_hammaddeMiktar);
         txt_hammaddeMiktar.setColumns(50); 
         
-        JLabel lblkarOranı= new JLabel("Kar Oranı ");
-        lblkarOranı.setFont(new Font("Tahoma", Font.BOLD, 15));
-        lblkarOranı.setPreferredSize(new Dimension(300,50));
-        panel_2.add(lblkarOranı);
+        JLabel lblkarOranÃ½= new JLabel("Kar OranÃ½ ");
+        lblkarOranÃ½.setFont(new Font("Tahoma", Font.BOLD, 15));
+        lblkarOranÃ½.setPreferredSize(new Dimension(300,50));
+        panel_2.add(lblkarOranÃ½);
          
-        JTextField txt_karOranı = new JTextField();
-        txt_karOranı.setPreferredSize(new Dimension(300, 30));
-        panel_2.add(txt_karOranı);
-        txt_karOranı.setColumns(50); 
+        JTextField txt_karOranÃ½ = new JTextField();
+        txt_karOranÃ½.setPreferredSize(new Dimension(300, 30));
+        panel_2.add(txt_karOranÃ½);
+        txt_karOranÃ½.setColumns(50); 
         
         //hammadde1 = txt_hammaddeAdi.getText();
         
@@ -1130,7 +1130,7 @@ public class Arayuz extends JFrame {
 				String istenilenMiktar = txt_hammaddeMiktar.getText();
 				//System.out.println(istenilenMiktar);
 				int miktar = Integer.parseInt(istenilenMiktar);
-				String karOrani=txt_karOranı.getText();
+				String karOrani=txt_karOranÃ½.getText();
 				int kar=Integer.parseInt(karOrani);
 				
 				ResultSet myRs1= VeriBaglanti.urunBulma(kimyasalUrun);
@@ -1203,7 +1203,7 @@ public class Arayuz extends JFrame {
 					{
 						if(list_miktar.get(j) <= toplamMiktar)
 						{
-							if(list_ulke.get(j).contains("Türkiye"))
+							if(list_ulke.get(j).contains("TÃ¼rkiye"))
 							{
 								System.out.println("11");
 								double hesapla = (list_miktar.get(j)*list_satisFiyati.get(j))+(list_mesafe.get(j)*0.5);
@@ -1219,7 +1219,7 @@ public class Arayuz extends JFrame {
 						}
 						else 
 						{
-							if(list_ulke.get(j).contains("Türkiye"))
+							if(list_ulke.get(j).contains("TÃ¼rkiye"))
 							{
 								System.out.println("21");
 
@@ -1355,7 +1355,7 @@ public class Arayuz extends JFrame {
 							kontrol7=false;
 						}
 						String sql_sorgu3;
-						sql_sorgu3 = "INSERT INTO uretici (uFirmaAdi,alinanHammadde,alisMaliyeti,stok,kimyasalUrun) VALUES ("+ "'Üretici',"  + "'"+ list_hammadde.get(t) + "'," + list_alisMaliyeti.get(0) +","+ stokBilgisi2 + ",'" + kimyasalUrun + "')";
+						sql_sorgu3 = "INSERT INTO uretici (uFirmaAdi,alinanHammadde,alisMaliyeti,stok,kimyasalUrun) VALUES ("+ "'Ãœretici',"  + "'"+ list_hammadde.get(t) + "'," + list_alisMaliyeti.get(0) +","+ stokBilgisi2 + ",'" + kimyasalUrun + "')";
 						VeriBaglanti.ekle(sql_sorgu3);
 						list_toplamMaliyet.add(t, list_alisMaliyeti.get(0));
 
@@ -1408,7 +1408,7 @@ public class Arayuz extends JFrame {
 						if(kontrol5)
 						{
 							String sql_sorgu4;
-							sql_sorgu4 = "INSERT INTO uretilenurun (urunID,urunAdi,hammadde,hammaddeMiktarı) VALUES ("+urunID+","  + "'"+ kimyasalUrun + "'," + "'" + list_hammadde.get(t) +"'," + list_bilesenSayisi.get(t) + ")";
+							sql_sorgu4 = "INSERT INTO uretilenurun (urunID,urunAdi,hammadde,hammaddeMiktarÃ½) VALUES ("+urunID+","  + "'"+ kimyasalUrun + "'," + "'" + list_hammadde.get(t) +"'," + list_bilesenSayisi.get(t) + ")";
 							VeriBaglanti.ekle(sql_sorgu4);
 						}
 						
@@ -1435,9 +1435,9 @@ public class Arayuz extends JFrame {
 				
 				satisFiyati = toplamMaliyet + (toplamMaliyet*kar)/100;
 				
-				System.out.println("İşçilik : " +iscilikMaliyeti);
+				System.out.println("ÃÃ¾Ã§ilik : " +iscilikMaliyeti);
 				System.out.println("Toplam : "+ toplamMaliyet);
-				System.out.println("Satış fiyatı:" + satisFiyati);
+				System.out.println("SatÃ½Ã¾ fiyatÃ½:" + satisFiyati);
 				
 				ResultSet myRs4= VeriBaglanti.baglan("uretilenurunbilgi");
 				
